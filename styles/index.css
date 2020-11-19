@@ -7,12 +7,39 @@
 /* Stop purging. */
 
 /* Write your own custom component styles here */
-.btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
-}
+
 
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
 
 /* Your own custom utilities */
+@layer utilities {
+.rainbow {
+  background-color: #B70000;
+  animation: bgColor 30s infinite;
+}
+@keyframes bgColor {
+    10% {
+      background-color: #B70000;
+    }
+    25% {
+      background-color: #C98217;
+    }
+    37.5% {
+      background-color: #ECE421;
+    }
+    50% {
+      background-color: #069614;
+    }
+    62.5% {
+      background-color: #061D96;
+    }
+    80% {
+      background-color: #540570;
+    }
+    100% {
+      background-color: #B70000;
+    }
+  }
+}
