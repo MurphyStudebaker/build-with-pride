@@ -14,11 +14,18 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;1,700&display=swap');
+
 @layer utilities {
 .rainbow {
   background-color: #B70000;
   animation: bgColor 30s infinite;
 }
+
+.mono {
+  font-family: 'B612 Mono', monospace;
+}
+
 @keyframes bgColor {
     10% {
       background-color: #B70000;

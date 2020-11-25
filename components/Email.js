@@ -3,11 +3,11 @@ export default function Email() {
       <form className='mt-4 w-full' name="contact" action="/" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <div className='flex flex-col items-center w-full'>
-        <p className='w-full'>
-          <input className='p-2 border rounded w-full' type="email" name="email" placeholder='Your Email' id="youremail" />
+        <p className='w-full text-lg'>
+          <input className='px-8 py-6 rounded-lg w-full mono' type="email" name="email" placeholder='Your Email' id="youremail" />
         </p>
-        <p className='w-full'>
-          <button className='mt-2 bg-gray-100 py-2 px-6 border rounded w-full' type="submit">Join our Community</button>
+        <p className='w-full text-lg'>
+          <button className='mt-2 bg-transparent text-white py-6 px-6 border-4 border-white rounded-lg w-full mono' type="submit">Join our Community</button>
         </p>
 
         </div>
