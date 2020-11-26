@@ -1,6 +1,8 @@
 import Email from '../components/Email'
 import Nav from '../components/nav'
 import Link from 'next/link'
+import { SocialIcon } from 'react-social-icons';
+import Footer from '../components/footer';
 
 export default function IndexPage() {
   return (
@@ -14,10 +16,7 @@ export default function IndexPage() {
         {/* <h2 className='text-gray-300 text-2xl'>Tools for Queer Indie Hackers</h2> */}
         <Email />
       </div>
-      <footer className='px-10 py-10'>
-        <p className='text-white mono'>© 2020 by Murphy Studebaker</p>
-        <a href='http://www.buildwithpride.org' className='text-white mono'>Built with 🏳️‍🌈</a>
-      </footer>
+      <Footer />
     </div>
   )
 }

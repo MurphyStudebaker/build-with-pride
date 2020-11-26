@@ -7,7 +7,9 @@ export default function Email() {
           <input className='px-8 py-6 rounded-lg w-full mono' type="email" name="email" placeholder='Your Email' id="youremail" />
         </p>
         <p className='w-full text-lg'>
-          <button className='mt-2 bg-transparent text-white py-6 px-6 border-4 border-white rounded-lg w-full mono' type="submit">Join our Community</button>
+          <button className='mt-2 bg-transparent text-white py-6 px-6 border-4 border-white rounded-lg w-full mono' type="submit">
+          Join the gays!
+          </button>
         </p>
 
         </div>
