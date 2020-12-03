@@ -15,7 +15,7 @@ export default function Tools() {
         <h2 className='text-white mono text-2xl mt-16'>Pride Footer Banner</h2>
         <p className='text-white mono'>Just throw this at the bottom of your footer :)</p>
         <div className='border border-white rounded px-4 py-4 mt-2'>
-          <p className='text-white mono'>
+          <p className='text-white mono break-all'>
           {`<a href='http://www.buildwithpride.org'> Built with 🏳️‍🌈 </a>`}
           </p>
         </div>
