@@ -7,8 +7,9 @@ export default function Footer() {
         <SocialIcon url="https://twitter.com/buildwithpride" fgColor='white' bgColor='transparent'/>
         <SocialIcon url="https://instagram.com/buildwithprideorg" fgColor='white' bgColor='transparent'/>
         </div>
-        <p className='text-white mono'>© 2020 by Murphy Studebaker</p>
-        <a href='http://www.buildwithpride.org' className='text-white mono'>Built with 🏳️‍🌈</a>
+        <p className='text-white mono'>
+            <a href='http://www.buildwithpride.org'>Built with 🏳️‍🌈</a> by <a href='http://www.murphystudebaker.com'> Murphy Studebaker</a>
+        </p>
       </footer>
     )
 }
