@@ -13,8 +13,13 @@ export default function Tools() {
         <Link href='/'><p className='text-6x text-white font-bold mono cursor-pointer'>{`<🏳️‍🌈build with pride/>`}</p></Link>
         <Link href='/tools'><p  className='text-white font-bold mono cursor-pointer'>tools</p></Link>
       </nav>
+
       <div className='flex-grow mt-10 container mx-auto px-10'>
-        <h2 className='text-white mono text-2xl'>Social Cover Photos</h2>
+        <h2 className='text-white mono text-2xl mt-16'>Discord Server (+live coding)</h2>
+        <a href="https://discord.gg/KVaxaSMnM8" className="text-white mono underline">Come hang out!</a>
+      
+
+        <h2 className='text-white mono text-2xl mt-16'>Social Cover Photos</h2>
         <a href="https://photos.app.goo.gl/t9h6yGVbV5XesMoy8" className="text-white mono underline">Download on Google Photos</a>
       
         <h2 className='text-white mono text-2xl mt-16'>Pride Footer Banner</h2>

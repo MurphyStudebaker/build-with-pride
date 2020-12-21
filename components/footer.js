@@ -6,6 +6,7 @@ export default function Footer() {
         <div className='flex'>
         <SocialIcon url="https://twitter.com/buildwithpride" fgColor='white' bgColor='transparent'/>
         <SocialIcon url="https://instagram.com/buildwithprideorg" fgColor='white' bgColor='transparent'/>
+        <SocialIcon url="https://discord.gg/KVaxaSMnM8" fgColor='white' bgColor='transparent'/>
         </div>
         <p className='text-white mono'>
             <a href='http://www.buildwithpride.org'>Built with 🏳️‍🌈</a> by <a href='http://www.murphystudebaker.com'> Murphy Studebaker</a>
